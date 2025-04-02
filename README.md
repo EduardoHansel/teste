@@ -58,7 +58,10 @@ para o gerenciamento de reservas de salas acadêmicas. Suas funcionalidades-chav
     ```bash
     pip install -r requirements.txt
    ```
-   Certifique-se de que todos os módulos e pacotes estão instalados.
+   Certifique-se de que todos os módulos e pacotes estão instalados. Caso isso não funcione execute:
+   ```
+   pip install fastapi SQLAlchemy pydantic passlib uvicorn psycopg2-binary
+   ```
    
 4. **Configurar o Banco de Dados**
 - Dentro do `PostgreSQL / pgAdmin 4`, crie um banco de dados (Default Workspace > Databases (botão direito) > Create > Database...).
